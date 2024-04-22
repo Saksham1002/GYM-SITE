@@ -1,0 +1,112 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	color: whitesmoke;
+}
+
+
+body {
+background-repeat: no repeat;
+background-size: cover;
+}
+
+.left{
+display: inline-block;
+position: absolute;
+left: 35px;
+top: 20px;
+}
+
+.center{
+display: block;
+width: 33%;
+margin: 20px auto;
+
+}
+
+.right{
+display: inline-block;
+position: absolute;
+right: 35px;
+top: 20px;
+}
+
+.navbar{
+	display: inline-block;
+	margin: 0px -125px;
+	padding: 0 120px;
+}
+
+.navbar li{
+	display: inline-block;
+	color: whitesmoke;
+	font-size: 15px;
+}
+
+.navbar li a {
+	text-decoration: none;
+	padding: 20px 20px;
+}
+
+.navbar li a:hover {
+	text-decoration: underline;
+}
+
+.container{
+	border: 2px solid whitesmoke;
+	margin: 170px 72px;
+    width: 30%;
+    padding: 45px 35px;
+    border-radius: 25px;
+ 
+}
+
+.container h1{
+	text-align: center;
+}
+
+ .container button{
+ 	display: block;
+width: 30%;
+margin: 20px auto;
+padding: 6px 0px;
+background-color: #595962;
+ }
+
+.left img{
+	width: 160px;
+}
+
+.btn{
+	background-color: black;
+	color: white;
+	margin:0 10px ;
+	padding: 0 10px;
+	border: 2px solid floralwhite;
+	border-radius: 5px;
+	font-size:15px ;
+	/*display: flex;
+	justify-content: center;
+	align-items: center*/;
+
+}
+
+.btn:hover{
+	color: darkslategrey;
+}
+
+.form input{
+	display: block;
+text-align: center;
+width: 350px;
+margin: 15px 30px;
+padding: 10px 10px;
+border: 2px solid whitesmoke;
+border-radius: 5px;
+color: black;
+}
+
+@media screen and (max-width: 800px) {
+	
+}
